@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 //  pois a classe CrudRepository já a define,
 //Aqui ela está no sentido demonstrativo.
 @Repository
-public interface ClienteRepository extends CrudRepository<Endereco, String> {
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
 }
