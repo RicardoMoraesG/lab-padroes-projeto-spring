@@ -12,6 +12,10 @@ public class Cliente {
     @ManyToOne
     private Endereco endereco;
 
+    public Long getId() {
+        return id;
+    }
+
     public String getNome() {
         return nome;
     }
